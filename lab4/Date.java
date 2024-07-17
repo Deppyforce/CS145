@@ -21,7 +21,7 @@ public class Date {
         }
 
         // if leapyear, set day count in feb to 29
-        if (year % 4 == 0 && year % 400 != 0) {
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             daysInMonth[1] = 29;
         }
 
