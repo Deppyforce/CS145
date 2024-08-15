@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class TreeTest {
     public static void main(String[] args) {
-        // initialize random number generator and array to log numbers
+        // initialize random number generator and ArrayList to log numbers
         SecureRandom rng = new SecureRandom();
         ArrayList<Integer> numbers = new ArrayList<>();
 
